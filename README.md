@@ -7,3 +7,6 @@
 ```
 cubetool init -t https://github.com/ntt360/cube-tpl-news-2pic6text.git
 ```
+
+## UI预览
+![标准资讯类模板 UI 预览图](https://raw.githubusercontent.com/ntt360/cube-tpl-news-2pic6text/master/ui/ui.png)
