@@ -5,7 +5,11 @@
 
 ## 使用
 ```
-cubetool init -t https://github.com/ntt360/cube-tpl-news-2pic6text.git
+cubetool init <cubeid> -t https://github.com/ntt360/cube-tpl-news-2pic6text.git
+```
+或简写：
+```
+cubetool init <cubeid> -t ntt360/cube-tpl-news-2pic6text
 ```
 
 ## UI预览
