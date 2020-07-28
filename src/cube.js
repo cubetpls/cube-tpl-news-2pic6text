@@ -1,25 +1,11 @@
-import CubeCarousel from './components/Carousel/index.js'
-
 export default {
   data : {
     loading: true,
     carouselList: [],
-    textList: [],
-    carouselTpl: [
-      '{{#list item as item2 by item2_index}}',
-        '<a href="{{item2.url}}" target="_blank">',
-          '<img src="{{item2.pic | clipImage:\'180_100_75\'}}" width="180" height="100" alt="">',
-          '<p class="ext">',
-            '<span class="bg"></span>',
-            '<span class="title">{{item2.title}}</span>',
-          '</p>',
-        '</a>',
-        '{{/list}}',
-    ].join('')
+    textList: []
   },
   onLoad(){
     /*cube 被加载之后 */
-    this.createComponent(CubeCarousel)
   },
   onReady(){
     /*cube 被添加到页面之后 */
@@ -50,11 +36,25 @@ export default {
     })
   },
   handleData (data) {
-    const carouselList = this.transformData(data.img_list)
-    const textList = data.text_list
+    const dataList = this.formatData(data)
+    const carouselList = this.transformData(dataList.slice(0, 6))
+    const textList = dataList.slice(6, 12)
     this.setData({
       carouselList,
       textList
+    })
+  },
+  formatData (data) {
+    const tmprtp = encodeURIComponent(this.getCubeInfo().tmprtp) || ''
+    return data.map(({id, title, image, online_tag, tags}) => {
+      return {
+        title,
+        url: `https://yule.360.cn/detail/${id}?tmprtp=${tmprtp}`,
+        pic: image,
+        onlineTag: online_tag.split(',')[0] || '',
+        tags,
+        tagsUrl: `https://yule.360.cn/list?tag=${tags}`
+      }
     })
   },
   transformData (data) {

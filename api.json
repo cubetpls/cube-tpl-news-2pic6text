@@ -1,75 +1,183 @@
 {
-  "list": {
-    "host": "https://groot.hao.360.cn/api/cube/getListByPosition",
+  "list" : {
+    "host": "https://yule.360.cn/cube/feeds",
     "timeout": 5000,
-    "data"   : {
-      "project_id":2,
-      "page":1,
-      "position_id":27,
-      "psize": 6,
-      "csize": 6,
-      "category": "LALWQkXrXq0uOD",
-      "fmt":"jsonp"
+    "cb": "_callback",
+    "data": {
+      "position_id": 100,
+      "size": 21,
+      "p": "trumpet",
+      "fmt": "jsonp"
     },
-    "offline": {
-      "img_list": [
-        {
-          "title": "6个热气球地点",
-          "url": "https://news.g.360.cn/topicdetail/LtfVREa2LHS7Pj",
-          "pic": "https://p1.ssl.qhimg.com/t011655f484b2470b81.jpg"
-        },
-        {
-          "title": "原来就是个超级广告",
-          "url": "https://news.g.360.cn/topicdetail/KtPYQES2LHz6Pj",
-          "pic": "https://p0.ssl.qhimg.com/t016153b58712580b1c.jpg?size=261x178"
-        },
-        {
-          "title": "太丢中国玩家脸了",
-          "url": "https://news.g.360.cn/topicdetail/LdTUPkW2LHz6Qw",
-          "pic": "https://p1.ssl.qhimg.com/t0180d09199eedff14c.jpg?size=324x224"
-        },
-        {
-          "title": "免费领枪械皮肤",
-          "url": "https://news.g.360.cn/topicdetail/LNjZPkm1NXO7Pw",
-          "pic": "https://p1.ssl.qhimg.com/t01e5929c9897429afa.jpg"
-        },
-        {
-          "title": "神秘大事件解析",
-          "url": "https://news.g.360.cn/topicdetail/LAjdPkK1NXK7Pw",
-          "pic": "https://p0.ssl.qhimg.com/t01eafd917d014eb765.jpg"
-        },
-        {
-          "title": "找代练代价有多大？",
-          "url": "https://news.g.360.cn/topicdetail/KAPXPkO1NXKDPj",
-          "pic": "https://p1.ssl.qhimg.com/t014cf38cbd97280228.jpg?size=316x219"
-        }
-      ],
-      "text_list": [
-        { 
-          "title": "Steam3月最虐心游戏，上线两周却好评如潮！玩家为何边受苦边叫好？",
-          "url": "https://news.g.360.cn/topicdetail/LAfVRke2LHW5Ow"
-        },
-        {
-          "title": "为不让大家外出，外国政府也是拼了！竟专门建服务器给学生玩游戏",
-          "url": "https://news.g.360.cn/topicdetail/LNbXPkW2LHW5OD"
-        },
-        {
-          "title": "死亡之舞成上单神器 版本三大适配英雄推荐",
-          "url": "https://news.g.360.cn/topicdetail/KdTWQ0K2LHSCOT"
-        },
-        {
-          "title": "《半条命：爱莉克斯》带动设备卖脱销，预载空间需67.3G",
-          "url": "https://news.g.360.cn/topicdetail/MtTZREW2LHSCOD"
-        },
-        {
-          "title": "LPL W4前瞻：豪门与新贵 IG能否坐稳榜首？",
-          "url": "https://news.g.360.cn/topicdetail/KtbXQkO2LHOAOT"
-        },
-        {
-          "title": "中华文化博大精深！一个字足以毁掉游戏，暴雪竟也能和漫威掐架",
-          "url": "https://news.g.360.cn/topicdetail/MdLYPkG2LHOAOD"
-        }
-      ]
-    }
+    "offline": [
+      {
+        "id": 999041,
+        "title": "赵丽颖的创可贴，大家却关注她的包",
+        "image": "//hao6.qhimg.com/t014ee0504b2afb1fbc.jpg",
+        "online_tag": "找亮点",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998393,
+        "title": "杨超越不受待见？合影时老成员扎堆",
+        "image": "//hao6.qhimg.com/t01854b985b46ffbf84.jpg",
+        "online_tag": "看合影",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998144,
+        "title": "张靓颖秀恩爱！男友环抱动作亲密",
+        "image": "//hao6.qhimg.com/t017213c507b48e3150.jpg?780*500",
+        "online_tag": "动作亲密",
+        "online_hot": "",
+        "tags": "精彩图集"
+      },
+      {
+        "id": 998162,
+        "title": "王菲的前男友，变中老年美妆博主？",
+        "image": "//hao6.qhimg.com/t01c811042a91919e64.jpg",
+        "online_tag": "美妆博主",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998141,
+        "title": "流浪地球加长版，票房将全捐！",
+        "image": "//hao5.qhimg.com/t0148b7646b5d82817f.jpg",
+        "online_tag": "票房将全捐",
+        "online_hot": "",
+        "tags": "影视"
+      },
+      {
+        "id": 998023,
+        "title": "不当明星做什么，杨幂令人没想到",
+        "image": "//hao5.qhimg.com/t01475e3614849099d9.jpg",
+        "online_tag": "没想到",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998117,
+        "title": "不务正业是无奈？郎朗怎么了",
+        "image": "//hao6.qhimg.com/t01260de153d4aa5200.jpg",
+        "online_tag": "郎朗",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998389,
+        "title": "撕名牌还玩暧昧？郭麒麟引热议",
+        "image": "//hao6.qhimg.com/t01898268cbb6b88b2d.jpg",
+        "online_tag": "郭麒麟",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998073,
+        "title": "明星开店背后：造假、卫生太差",
+        "image": "//hao6.qhimg.com/t01ba3d68b623e43130.jpg",
+        "online_tag": "差评",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998157,
+        "title": "王一博自愧不如，黑人称霸舞台",
+        "image": "//hao6.qhimg.com/t01badff08f99ad4700.jpg",
+        "online_tag": "街舞3",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 996826,
+        "title": "明星要被她问哭，敢说真话的主持人",
+        "image": "//hao5.qhimg.com/t017a12ae3a734ddca7.jpg",
+        "online_tag": "敢说真话",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998408,
+        "title": "央视一姐董卿存在感越来越低",
+        "image": "//hao5.qhimg.com/t01cc94c6b4e79ccedb.jpg",
+        "online_tag": "存在感",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 995629,
+        "title": "快男陈翔曝恋情，与女子购婴儿用品",
+        "image": "//hao5.qhimg.com/t017919d60d9ae39065.jpg",
+        "online_tag": "曝恋情",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 998022,
+        "title": "那英淘汰的3位，个个爆红真打脸",
+        "image": "//hao5.qhimg.com/t010c86008d0ee91926.jpg",
+        "online_tag": "真打脸",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 995667,
+        "title": "成龙被禁播电影：花了1.5亿票房1300万",
+        "image": "//hao6.qhimg.com/t019e3aff977bf092d2.jpg",
+        "online_tag": "花1.5亿",
+        "online_hot": "",
+        "tags": "影视"
+      },
+      {
+        "id": 995677,
+        "title": "开天辟地头一回，简单粗暴的马赛克",
+        "image": "//hao5.qhimg.com/t01cf74dbe658199d1e.jpg?size=640x293",
+        "online_tag": "封杀",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 994973,
+        "title": "杨紫吴亦凡甩锅？刘敏涛后悔出圈？",
+        "image": "//hao6.qhimg.com/t017dc77e38419f68d9.jpg",
+        "online_tag": "甩锅",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 994994,
+        "title": "吉娜睡前做运动，郎朗说出真相",
+        "image": "//hao6.qhimg.com/t01bafea87bac2f268a.jpg",
+        "online_tag": "真相",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 991591,
+        "title": "郑爽“假喝水”被杨迪当场揭穿",
+        "image": "//hao6.qhimg.com/t01dc07c3674bd28e91.jpg",
+        "online_tag": "被揭穿",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 991690,
+        "title": "十大综艺热咖！2020上半年谁最热",
+        "image": "//hao6.qhimg.com/t01cfd1797d3332d4e4.jpg",
+        "online_tag": "谁最热",
+        "online_hot": "",
+        "tags": "综艺"
+      },
+      {
+        "id": 991628,
+        "title": "王一博失去表情，他的偶像布布为他赢回荣誉",
+        "image": "//hao5.qhimg.com/t011adcd21ce05a0469.jpg",
+        "online_tag": "追星",
+        "online_hot": "",
+        "tags": "综艺"
+      }
+    ]
   }
 }
